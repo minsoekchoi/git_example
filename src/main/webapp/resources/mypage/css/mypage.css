@@ -1,0 +1,142 @@
+.container {
+	background-color: green;
+	width: 100vw;
+	height: 100vh;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	background-color: yellow;
+	height: 100vh;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#wrapper_inner {
+	width: 1200px;
+	height: 800px;
+	position: absolute;
+	top: 20%;
+	background-color: BlanchedAlmond;
+}
+
+#pictureandbadgeandflower {
+	background-color: blue;
+	float: left;
+	width: 400px;
+}
+
+#picture {
+	display: flex;
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	background-color: gray;
+}
+
+#badge {
+	display: flex;
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 300px;
+	height: 100px;
+	background-color: white;
+}
+
+#picturebutton {
+	background-color: red;
+	text-align: center;
+}
+
+#pictureedit {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+}
+
+#picturedelete {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+}
+
+#flowerandflowerbutton {
+	background-color: orange;
+	float: left;
+	width: 400px;
+}
+
+#flower {
+	display: flex;
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+}
+
+#flowerbutton {
+	width: 400px;
+	height: 30px;
+	background-color: olive;
+	text-align: center;
+}
+
+#watering {
+	text-align: center;
+	width: 100px;
+	height: 30px;
+}
+
+#memberinformation_header {
+	width: 800px;
+	height: 50px;
+	background-color: red;
+	float: left;
+}
+
+#membertable {
+	float: left;
+	/* margin-right: 30px; */
+	/* text-align: left; */
+	background-color: yellow;
+	padding-left: 40px;
+	width: 800px;
+}
+
+th, td {
+	padding: 10px 5px;
+}
+
+.mypage_information {
+	font-size: 20px;
+	width: 200px;
+	background-color: orange;
+}
+
+#memberbutton {
+	background-color: gray;
+	text-align: right;
+	width: 800px;
+	height: 50px;
+	float: left;
+}
+
+#informationedit {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+}
+
+#passwordedit {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+}
+
+/* 프레임 8px여백 없애기 위함  */
+body {
+	margin: 0;
+}
